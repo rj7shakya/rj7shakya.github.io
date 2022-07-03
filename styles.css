@@ -72,6 +72,7 @@
   justify-content: center;
   align-items: center;
   transition: transform 0.2s;
+  box-shadow: 1px 2px 17px 9px rgba(130, 125, 125, 0.76);
 
   margin-right: 100px;
 }
