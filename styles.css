@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* header section */
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  
+  background-color: #efefef;
+
+}
+
+.header__name{
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.header__side__buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.header__about,.header__contact{
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.header__download{
+  margin: 0px 15px;
+  padding: 6px 10px;
+  background-color: black;
+  border-radius: 4px;
+
+  color: white;
+  cursor: pointer;
+}
