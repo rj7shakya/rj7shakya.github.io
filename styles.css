@@ -207,3 +207,23 @@
   margin-top: 20px;
   cursor: pointer;
 }
+
+/* footer section */
+.footer__container {
+  background-color: black;
+  color: white;
+  height: 10vh;
+  padding: 0px 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 7px;
+  cursor: pointer;
+}
