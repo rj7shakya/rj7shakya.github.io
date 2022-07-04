@@ -15,6 +15,9 @@
   height: 6vh;
 
   background-color: #dedede;
+  position: fixed;
+  top: 0;
+  width: 98%;
 }
 
 .header__name {
@@ -55,7 +58,7 @@
   justify-content: space-between;
   align-items: center;
 
-  height: 94vh;
+  height: 100vh;
   padding: 10px 30px;
 }
 
@@ -89,7 +92,7 @@
 
 /* about section */
 .about__container {
-  height: 94vh;
+  height: 100vh;
   padding: 10px 30px;
 }
 
@@ -139,7 +142,7 @@
 
 /* contact section */
 .contact__container {
-  height: 94vh;
+  height: 100vh;
   padding: 10px 30px;
 }
 .contact__title {
