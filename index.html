@@ -60,11 +60,30 @@
 
     <!-- contact me -->
     <div class="contact__container">
-      <div class="contact__title"></div>
-      <div class="contact__form__container">
-        <div class="contact__name__email"></div>
-        <div class="contact__message"></div>
-        <div class="contact__submit"></div>
+      <div class="contact__title">Contact me</div>
+      <div class="contact__inner__form">
+        <img src="./images/message.png" alt="" />
+        <div class="contact__form__container">
+          <div class="contact__name__email">
+            <div class="contact__input__container">
+              <label class="contact__label">Name</label>
+              <input type="text" class="contact__name" placeholder="Name" />
+            </div>
+            <div class="contact__input__container">
+              <label class="contact__label">Email</label>
+              <input type="email" class="contact__email" placeholder="Email" />
+            </div>
+          </div>
+          <div class="contact__input__container2">
+            <label class="contact__label">Message</label>
+            <textarea
+              name="textarea"
+              class="contact__message"
+              placeholder="Write a message ..."
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit" class="contact__submit" />
+        </div>
       </div>
     </div>
 
