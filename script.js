@@ -45,3 +45,34 @@ document.querySelector(".header__contact").addEventListener("click", () => {
 document.querySelector(".header__download").addEventListener("click", () => {
   window.open("./RajadShakyaCV.pdf", "_blank");
 });
+
+//form handle
+const onSubmit = () => {
+  const name = document.querySelector(".contact__name");
+  const email = document.querySelector(".contact__email");
+  const message = document.querySelector(".contact__message");
+
+  if (name.value === "") {
+    alert("name is required");
+  } else if (email.value === "") {
+    alert("email is required");
+  } else if (message.value === "") {
+    alert("message is required");
+  } else {
+    // Email.send({
+    //   Host: "smtp.gmail.com",
+    //   Username: "shakyarajad7@gmail.com",
+    //   Password: "",
+    //   To: "shakyarajad1@gmail.com",
+    //   From: email.value,
+    //   Subject: `Message from ${name.value}`,
+    //   Body: message.value,
+    // }).then((message) => {
+    //   console.log("message", message);
+    //   alert("mail sent successfully");
+    // });
+    alert("mail sent successfully");
+  }
+};
+
+document.querySelector(".contact__submit").addEventListener("click", onSubmit);
