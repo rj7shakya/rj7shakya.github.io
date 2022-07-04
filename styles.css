@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -97,7 +101,7 @@
 }
 
 .about__header {
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 90px;
   font-size: 50px;
 }
@@ -142,12 +146,12 @@
 
 /* contact section */
 .contact__container {
-  height: 100vh;
+  height: 85vh;
   padding: 10px 30px;
 }
 .contact__title {
-  margin-top: 30px;
-  margin-bottom: 90px;
+  margin-top: 80px;
+  margin-bottom: 0px;
   font-size: 50px;
 }
 

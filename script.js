@@ -24,3 +24,24 @@ const typing = () => {
 };
 
 typing();
+
+//button click
+//name click
+document.querySelector(".header__name").addEventListener("click", () => {
+  document.querySelector(".hero__container").scrollIntoView();
+});
+
+//about click
+document.querySelector(".header__about").addEventListener("click", () => {
+  document.querySelector(".about__container").scrollIntoView();
+});
+
+//contact click
+document.querySelector(".header__contact").addEventListener("click", () => {
+  document.querySelector(".contact__container").scrollIntoView();
+});
+
+//download click
+document.querySelector(".header__download").addEventListener("click", () => {
+  window.open("./RajadShakyaCV.pdf", "_blank");
+});
